@@ -1,0 +1,13 @@
+.submitButton {
+    border-radius: 20px !important;
+    background-color: white !important;
+}
+
+.submitButton:hover {
+    background-color: green !important;
+    color: white !important;
+}
+
+.form-range::-webkit-slider-thumb {
+    background: #ff7885 !important; /* Green background */
+}

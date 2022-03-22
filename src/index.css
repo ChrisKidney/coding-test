@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  color: #ff7885;
+}
+
+.content-div {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Always show arrows on number inputs */
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1
+}
