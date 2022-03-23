@@ -173,7 +173,7 @@ const DesignFirmForm = () => {
       </Row>
       <Row className='mt-5 justify-content-center'>
         <Col md={{ span: 6, offset: 5 }}>
-          <Button type='button' className='submitButton btn-outline-success'>
+          <Button type='button' className='submitButton btn-outline-success mb-5'>
             Confirm Design
           </Button>
         </Col>
