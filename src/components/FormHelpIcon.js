@@ -5,10 +5,10 @@ const FormHelpIcon = (props) => {
   return ( 
     <img
       src={helpicon}
-      width="25"
-      height="25"
-      className="mt-1"
-      alt="help"
+      width='25'
+      height='25'
+      className='mt-1'
+      alt='help'
     />
   );
 }

@@ -1,49 +1,56 @@
 .navbar {
-    display:inline;
+  display:inline;
 }
 
 .dropdown-toggle::after {
-    display: none !important; 
+  display: none !important; 
 }
 
 .dropdown-toggle::before {
-    display: none !important; 
+  display: none !important; 
 }
 
 .active {
-    background-color: rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);
 }
 
 .dropdown-menu-end {
-    right: 0;
-    left: auto;
+  right: 0;
+  left: auto;
 }
 
 .nav-link:hover {
-    color: grey !important;
-
+  color: grey !important;  
 }
 
 .nav-link-bold {
-    text-decoration: none !important;
-    color:black !important;
-    font-weight: bold;
+  text-decoration: none !important;
+  color:black !important;
+  font-weight: bold;
 }
 
 .nav-link-light {
-    text-decoration: none !important;
-    color:black !important;
-    font-weight: lighter;
+  text-decoration: none !important;
+  color:black !important;
+  font-weight: lighter;
+}
+
+.nav-link-offcanvas {
+  max-height:7%;
 }
 
 nav, nav > .navbar {
-    padding-top:0 !important;
-    padding-bottom:0 !important;
-    height: 100% !important;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+  height: 100% !important;
 }
 
 .nav-link {
-    padding-top: 1.25rem !important;
-    padding-bottom: 1.25rem!important;
-    height: 100% !important;
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem!important;
+  height: 100% !important;
+}
+
+.navbar-toggler {
+  position: inherit;
 }
